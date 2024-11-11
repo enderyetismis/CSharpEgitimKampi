@@ -101,35 +101,71 @@ namespace _02_Veriables
             #region Klavyeden Veri Girişleri İnt Değişkenler
 
 
-            int shoesPrice, computerPrice, chairPrice, tvPrice;
+            //int shoesPrice, computerPrice, chairPrice, tvPrice;
 
 
-            shoesPrice = 500;
-            computerPrice = 20000;
-            chairPrice = 350;
-            tvPrice = 80000;
+            //shoesPrice =5 00;
+            //computerPrice = 20000;
+            //chairPrice = 350;
+            //tvPrice = 80000;
 
-            int shoesCost, computerCost, chairCost, tvCost;
-            Console.WriteLine("********KASA********");
-            Console.WriteLine();
+            //int shoesCost, computerCost, chairCost, tvCost;
+            //Console.WriteLine("********KASA********");
+            //Console.WriteLine();
 
-            Console.Write("Alınan Ayakkabı Sayısını Giriniz: ");
-            shoesCost = int.Parse(Console.ReadLine());
+            //Console.Write("Alınan Ayakkabı Sayısını Giriniz: ");
+            //shoesCost = int.Parse(Console.ReadLine());
 
-            Console.Write("Alınan Bilgisayar Sayısını Giriniz: ");
-            computerCost = int.Parse(Console.ReadLine());
+            //Console.Write("Alınan Bilgisayar Sayısını Giriniz: ");
+            //computerCost = int.Parse(Console.ReadLine());
 
-            Console.Write("Alınan Sandalye Sayısını Giriniz: ");
-            chairCost = int.Parse(Console.ReadLine());
+            //Console.Write("Alınan Sandalye Sayısını Giriniz: ");
+            //chairCost = int.Parse(Console.ReadLine());
 
-            Console.Write("Alınan TV Sayısını Giriniz: ");
-            tvCost = int.Parse(Console.ReadLine());
-            Console.WriteLine();
+            //Console.Write("Alınan TV Sayısını Giriniz: ");
+            //tvCost = int.Parse(Console.ReadLine());
+            //Console.WriteLine();
 
-            int totalPrice;
-            totalPrice = shoesCost + computerCost + chairCost + tvCost;
+            //int totalPrice;
+            //totalPrice = shoesCost * shoesPrice + computerCost * computerPrice + chairCost * chairPrice + tvCost * tvPrice;
 
-            Console.WriteLine("Toplam Ödenecek Tutar: " + totalPrice);
+            //Console.WriteLine("Toplam Ödenecek Tutar: " + totalPrice);
+            #endregion
+            #region Klavyeden Veri Girişleri Double Değişkenler
+
+            //double exam1, exam2, exam3;
+            //Console.WriteLine("**********Not Ortalaması**********");
+            //Console.WriteLine();
+            //Console.Write("Lütfen 1. Sınav Notunu Giriniz?: ");
+            //exam1 = double.Parse(Console.ReadLine());
+
+            //Console.Write("Lütfen 2. Sınav Notunu Giriniz?: ");
+            //exam2 = double.Parse(Console.ReadLine());
+
+            //Console.Write("Lütfen 3. Sınav Notunu Giriniz?: ");
+            //exam3 = double.Parse(Console.ReadLine());
+
+            //double total = (exam1 + exam2 + exam3) / 3 ;
+
+            //Console.WriteLine("Sınav Ortalamanız = " + total);
+
+
+
+
+
+            #endregion
+            #region Klavyeden Veri Girişleri Char Değişkenler
+
+            //Console.WriteLine("******Cinsiyet Seçimi E/K*********");
+            //Console.WriteLine();
+            //char gender;
+            //Console.Write("Cinsiyet Seçiniz: ");
+            //gender = char.Parse(Console.ReadLine());
+
+            //Console.WriteLine("Cinsiyetiniz = "+ gender);
+
+
+
             #endregion
 
 
